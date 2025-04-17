@@ -52,7 +52,9 @@ def classify_siblings(trace_dir):
 
                     span['endTime'] = end
                     span['startTime'] = start
-                    span['opKey'] = f"{op}<{span_id}>"
+                    # span['opKey'] = f"{op}<{span_id}>"
+                    span['opKey'] = op  # Just the operation name
+
 
                     parent_id = get_parent_id(span)
                     if parent_id:

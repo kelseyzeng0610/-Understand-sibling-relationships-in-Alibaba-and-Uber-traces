@@ -11,7 +11,7 @@ def save_results_txt(results,output_file):
             f.write("\n")
     
 if __name__ == "__main__":
-    trace_dir = "/Users/apple/Desktop/Final_Project_CS151/test_files"     
+    trace_dir = "/Users/apple/Documents/-Understand-sibling-relationships-in-Alibaba-and-Uber-traces/normal"     
     output_txt = "sibling_results.txt"  
 
     print("Running sibling execution classification...")
