@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "spans": [
+        {
+          "spanID": "9c6073328c7247c4",
+          "operationName": "RootOp",
+          "startTime": 1000,
+          "duration": 1000,
+          "references": [],
+          "processID": "service-default"
+        },
+        {
+          "spanID": "251ba0f748a7459e",
+          "operationName": "ChildA_parallel_03",
+          "startTime": 1026,
+          "duration": 34,
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "spanID": "9c6073328c7247c4"
+            }
+          ],
+          "processID": "service-default"
+        },
+        {
+          "spanID": "0991f5439ee14db4",
+          "operationName": "ChildB_parallel_03",
+          "startTime": 1031,
+          "duration": 28,
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "spanID": "9c6073328c7247c4"
+            }
+          ],
+          "processID": "service-default"
+        }
+      ]
+    }
+  ]
+}
